@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+  }
+  
+  body{
+    padding: 1%;
+    background-color: #f2eff4;
+  }
+  
+  h3{
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  h3:hover{
+    text-decoration: underline;
+    color: rgb(9, 135, 137);
+  }
+  
+  button{
+    background-color: #F21E6A;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+  }
+  
+  /******* Card Styles *******/
+  .flex-container{
+    display: inline-flex;
+    align-items: center;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-content: center;
+    margin-left:10px;
+  }
+  .card{
+    margin: 1px solid #000000;
+    box-shadow: 0 0 5px #000000;
+    margin: 20px;
+    display: inline-block;
+    width: 480px;
+    height: 500px;
+    align-self: stretch;
+    background-color: #e2eff0;
+    border: 2px solid #34a47d;
+    border-radius: 12px;
+  }
+  
+  .card-img{
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 12px;
+  }
+  
+  img{
+    width: 220px;
+    height: 240px;
+    margin-top: 10px;
+  }
+  
+  .card-title, .description{
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    height: auto;
+  }
+  
+  .card-title{
+    font-weight: bold;
+    font-size:14px;
+  }
+  
+  .description{
+    font-size: 12px;
+  }
+  
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: rgb(40, 149, 149);
+    text-shadow: 3px 0px 7px rgba(255, 253, 247, 0.8), -3px 0px 7px rgba(251, 247, 233, 0.8), 0px 4px 7px rgba(255, 254, 252, 0.8);
+    background: radial-gradient(circle at center, #a1d6d6 0, #baecec, white 100%);;
+  }
+  
+  h2 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  h3:hover{
+    text-decoration: underline;
+    color: rgb(9, 135, 137);
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  button{
+    background-color: rgb(9, 135, 137);;
+    color: white;
+    padding: 4px;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 6px;
+    width: 30%;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 1%;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    color: rgb(9, 135, 137);
+    background-color:  #ffffff;
+    border: 0.2px solid rgb(9, 135, 137);
+    transition: 0.5s;
+    font-weight: bold;
+  }
+  
+  
+  .center-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: rgb(40, 149, 149);
+    text-shadow: 3px 0px 7px rgba(255, 253, 247, 0.8), -3px 0px 7px rgba(251, 247, 233, 0.8), 0px 4px 7px rgba(255, 254, 252, 0.8);
+    background: radial-gradient(circle at center, #a1d6d6 0, #baecec, white 100%);;
+  }
+  
+  h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-top: 5px;
+  }
+  
+  
+  /** FORM STYLES***/
+  
+  .addItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: flex-start;
+    gap: 5px;
+  }
+  
+  input{
+    /* height: 40px; */
+    width: 30%;
+    height: 50px;
+  }
+  
+  .formhead, input::placeholder{
+    font-size: 20px;
+  }
+  
+  
+  .sv-dec, .sv{
+    font-size: 30px;
+  }
+  
+  .sv-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sv-title{
+    text-align: center;
+    font-size: 30px;
+  }
